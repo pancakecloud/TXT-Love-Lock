@@ -71,10 +71,10 @@ document.getElementById("confirm-btn").addEventListener("click", () => {
          // Clear previous text to avoid duplication
         popupText.innerHTML = '';
         const firstLine = document.createElement("div");
-        firstLine.textContent = "404"; 
-        firstLine.style.marginTop = "5px"; // Apply 5px margin to the top of the "404" text
+        // firstLine.textContent = "404"; 
+        // firstLine.style.marginTop = "5px"; // Apply 5px margin to the top of the "404" text
         const secondLine = document.createElement("div");
-        secondLine.textContent = "Love Not Found.ᐟ"; // This is the second line.
+        secondLine.textContent = "404 Love Not Found.ᐟ"; // This is the second line.
         popupText.appendChild(secondLine); // Adds the second line.
         // popupText.style.marginTop = "5px";
         closePopupBtn.textContent = "Try Again";  // Keep button text as "Try Again"
