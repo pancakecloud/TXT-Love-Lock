@@ -1,5 +1,4 @@
-
-     window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("DOMContentLoaded", () => {
     const audio = document.getElementById("bg-audio");
 
     // Try autoplay (some browsers allow muted autoplay)
@@ -97,6 +96,3 @@ document.getElementById("close-popup").addEventListener("click", function() {
         document.body.classList.remove("grayscale"); // Reset greyscale after closing the popup
     }
 })
-
-</style>
-</html>
